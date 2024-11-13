@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url(/imagens/grande.jpg);
+    background-image: url(imagens/grande.jpg);
     background-repeat: no-repeat;
     
     /*centralizar o conteudo*/
@@ -67,14 +67,14 @@ body{
 /*responsividade*/
 @media (max-width: 578px) {
     body {
-        background-image: url("/imagens/pequeno.jpg");
+        background-image: url("imagens/pequeno.jpg");
         background-repeat: no-repeat; /*a imagem é exibida uma vez sem qualquer repetição.*/
         background-size:cover; /*a imagem é dimensionada para cobrir todo o contêiner, mantendo sua proporção.*/    
     }
 }
 @media (max-width: 506px) { /*quando chegar no tamanho*/
     body {
-        background-image: url("/tabuada/imagens/pequeno.jpg");
+        background-image: url("imagens/pequeno.jpg");
         background-repeat: no-repeat;
         background-size: 500px 1558px; /*largura x altura*/
         
